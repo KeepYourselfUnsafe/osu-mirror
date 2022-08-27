@@ -1,0 +1,31 @@
+{
+  "name": "osu-mirror",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mirror.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KeepYourselfUnsafe/osu-mirror.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KeepYourselfUnsafe/osu-mirror/issues"
+  },
+  "homepage": "https://github.com/KeepYourselfUnsafe/osu-mirror#readme",
+  "dependencies": {
+    "@fastify/rate-limit": "^6.0.1",
+    "fastify": "^3.29.0",
+    "meilisearch": "^0.25.1",
+    "node-cache": "^5.1.2",
+    "node-fetch": "^2.6.7",
+    "path": "^0.12.7",
+    "rosu-pp": "^0.5.3",
+    "unzipper": "^0.10.11",
+    "utf8": "^3.0.0"
+  }
+}
